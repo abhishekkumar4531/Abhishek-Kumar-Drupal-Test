@@ -1,0 +1,14 @@
+uuid: a0f3ef3b-b5c1-41f3-8011-479b11139a4b
+langcode: en
+status: true
+dependencies: {  }
+name: custom_style_100x100
+label: 'Custom style 100X100'
+effects:
+  03f36cb8-9634-4603-a8f6-b8647b35948e:
+    uuid: 03f36cb8-9634-4603-a8f6-b8647b35948e
+    id: image_resize
+    weight: 1
+    data:
+      width: 100
+      height: 100

@@ -1,0 +1,14 @@
+uuid: 89c655bd-880a-4d93-ab48-91c0866e8611
+langcode: en
+status: true
+dependencies: {  }
+name: custom_style_50x50
+label: 'Custom style 50X50'
+effects:
+  c1d58053-04bb-4e42-bf3b-50a34220f92e:
+    uuid: c1d58053-04bb-4e42-bf3b-50a34220f92e
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50

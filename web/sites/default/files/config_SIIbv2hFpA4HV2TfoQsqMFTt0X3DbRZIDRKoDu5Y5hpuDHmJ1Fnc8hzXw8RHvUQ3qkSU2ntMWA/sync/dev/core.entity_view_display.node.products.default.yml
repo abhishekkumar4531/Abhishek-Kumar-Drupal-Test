@@ -1,0 +1,51 @@
+uuid: 9d6d527b-f24e-4731-9a64-1c8186e3da64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.products.field_product_feature
+    - field.field.node.products.field_product_gallery
+    - field.field.node.products.field_product_type
+    - image.style.custom_style_100x100
+    - node.type.products
+  module:
+    - image
+    - user
+id: node.products.default
+targetEntityType: node
+bundle: products
+mode: default
+content:
+  field_product_feature:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_product_gallery:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: custom_style_100x100
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_product_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

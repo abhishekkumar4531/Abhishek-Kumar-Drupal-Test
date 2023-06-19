@@ -1,0 +1,10 @@
+uuid: 328d26a1-3562-453b-abbc-da51b92740a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.product_view
+label: 'Product view'
+targetEntityType: node
+cache: true

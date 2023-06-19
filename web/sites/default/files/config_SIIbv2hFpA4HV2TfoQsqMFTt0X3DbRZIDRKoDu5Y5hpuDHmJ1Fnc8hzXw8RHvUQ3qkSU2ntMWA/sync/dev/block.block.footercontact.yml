@@ -1,0 +1,25 @@
+uuid: 35dab53e-8b36-4572-9db8-5bbd69c6e325
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5fb02eaf-8f1f-4aa4-9f6f-1fa315bacbee'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: footercontact
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:5fb02eaf-8f1f-4aa4-9f6f-1fa315bacbee'
+settings:
+  id: 'block_content:5fb02eaf-8f1f-4aa4-9f6f-1fa315bacbee'
+  label: 'Footer contact'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

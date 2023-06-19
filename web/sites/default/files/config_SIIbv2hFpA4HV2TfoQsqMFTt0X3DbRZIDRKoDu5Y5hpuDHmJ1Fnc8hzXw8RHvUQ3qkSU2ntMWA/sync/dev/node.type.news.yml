@@ -1,0 +1,17 @@
+uuid: 6d891129-6112-4adc-bc7d-646c58c33885
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: News
+type: news
+description: 'Add news for product'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

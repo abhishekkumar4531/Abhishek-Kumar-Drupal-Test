@@ -1,0 +1,30 @@
+uuid: 634dc48a-44e3-471c-b95a-b598cd16a112
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:48502242-5de4-4c0d-8640-9890ca6f13b9'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: productbanner
+theme: olivero
+region: content_above
+weight: -9
+provider: null
+plugin: 'block_content:48502242-5de4-4c0d-8640-9890ca6f13b9'
+settings:
+  id: 'block_content:48502242-5de4-4c0d-8640-9890ca6f13b9'
+  label: 'Product banner'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/products/*\r\n/products/type/*\r\n<front>"
